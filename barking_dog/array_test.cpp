@@ -6,7 +6,7 @@ void insert( int idx, int num, int arr[], int& len ) {
 		arr[idx] = num;
 		len++;
 	} else if ( idx < len ) {
-		for ( int i = len; idx <= i; i-- ) {
+		for ( int i = len; idx < i; i-- ) {
 			arr[i] = arr[i - 1];
 		}
 		arr[idx] = num;
