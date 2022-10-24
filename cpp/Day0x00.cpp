@@ -26,6 +26,7 @@ int func2( int arr[], int N ) {
  * @param N
  * @return int
  */
+
 int func3( int N ) {
 	for ( int i = 1; i * i <= N; i++ )
 		if ( i * i == N )
